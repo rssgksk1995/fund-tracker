@@ -1,0 +1,10 @@
+.parent-container {
+  width: 100vw;
+  height: 100vh;
+}
+.company-name {
+  font: 45px Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 20px 20px;
+}

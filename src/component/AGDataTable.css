@@ -1,0 +1,5 @@
+.tableContainer {
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
