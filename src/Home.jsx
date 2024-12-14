@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './Home.css'
-import AGDataTable from './component/AGDataTable'
+import DataTable from './component/DataTable'
 import { fundURL } from './constant/urls'
 
 function Home() {
@@ -46,7 +46,7 @@ function Home() {
     <>
       <section className='parent-container'>
         <section className='company-name'>SaaS Labs</section>
-        <AGDataTable data={data} />
+        <DataTable data={data} />
       </section>
     </>
   )
